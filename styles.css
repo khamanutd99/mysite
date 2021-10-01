@@ -1,0 +1,118 @@
+
+h1 {
+	
+    text-shadow: 2px 2px 5px red;
+
+   }
+
+
+
+h2 {
+	
+    text-shadow: 2px 2px 5px red;
+
+   }
+
+
+
+h3 {
+	
+	text-shadow: 2px 2px 5px red;
+
+   }
+
+
+
+.mydiv {
+
+	    border: 3px outset red;
+	    background-color: lightblue;
+	    text-align: center;
+     	border-radius: 15px;
+	
+       }
+
+
+
+img {
+	 
+	 width: 150; height: 250; 
+	 border: 2px outset red;
+	  
+	 border-radius: 15px;
+     padding: 3px; 
+     object-fit: cover;
+     
+	 
+    }
+
+
+
+body {
+	
+       font-size: 20;
+	   font-family: algerian;
+	   
+     }
+
+
+
+#background1 {
+   
+  background: url(images/back4.jpg);
+  background-repeat: no-repeat;
+  background-size: 135%;
+  
+             }
+
+
+
+#background2 {
+   
+  background: url(images/back7.jpg);
+  background-repeat: no-repeat;
+  background-size: 128%;
+  
+             }
+
+
+
+#background3 {
+   
+  background: url(images/back6.jpg);
+  background-repeat: no-repeat;
+  background-size: 128%;
+  
+             }
+
+
+
+
+body {margin: 0;}             
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+          }
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+               }
+
+ul.topnav li a:hover:not(.active) {background-color: black;}
+
+ul.topnav li a.active {background-color: red;}
+
+@media screen and (max-width: 600px) {
+
+  ul.topnav li {float: none;}
+}
